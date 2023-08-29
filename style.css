@@ -1,0 +1,209 @@
+
+
+
+
+
+
+.location>h5{
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+
+.loation>p{
+    margin:0%;
+    font-size: 13px;
+   font-weight: 400;
+    }
+
+    .vertical-line{
+        height:55px;
+border-left: 2px solid #f2f2f2;
+    } 
+
+    .search-div{
+        
+        padding: 0px 12px;
+        border: 1px solid rgb(232, 232, 232);
+        border-radius: 12px;
+        background: rgb(248, 248, 248);
+        color: rgb(130, 130, 130);
+        }
+
+        .search-div>input{
+            border:none;
+            background-color: transparent;
+            width: 40vw;
+            height: 45px;
+        }
+        ::placeholder{
+            font-size: 16px;
+            color:rgb(153, 153, 153)
+        }
+        .my-cart{
+           background-color:#0c831f !important; 
+           font-size: 14px;
+        }
+
+        .my-catagory{
+            width: 85%;
+        }
+       
+        .my-container,.category-section{
+            width: 85%;
+            
+            margin: auto;
+        }
+
+
+
+        .my-list{
+            white-space: nowrap;
+            overflow-x: auto;
+        }
+        .my-list>img{
+             padding-inline: 10px;
+        }
+
+        ::-webkit-scrollbar{
+            display: none;
+        }
+
+        .my-card{
+            width: 179px;
+            margin-inline: 10px;
+        }
+
+        .my-card-time{
+            width: fit-content;
+            height: 20px;
+            padding: 0px 4px;
+            font-weight: 700;
+            font-size: 9px;
+            color: rgb(54, 54, 54);
+            border-radius: 40px;
+            background-color: rgb(248, 248, 248);
+        }
+        .my-card-weight{
+            color: rgb(54, 54, 54);
+            font-size: 13px;
+        }
+
+        .my-card-title{
+            font-weight: 600;
+            font-size: 13px;
+            color: rgb(31, 31, 31);
+        }
+
+        .card-price{
+            font-size: 16px;
+            font-weight: 600;
+            color: rgb(31, 31, 31);
+        }
+
+        .row-3{
+            color: #666666;
+            font-size: 15px;
+            text-align: justify;
+            padding: 10px;
+        }
+
+        .row-2{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .social-btn{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            margin-inline: 10px;
+        }
+
+        .social{
+            display: flex;
+
+        }
+        .row-2>p{
+            color: #666666;
+            font-size: 15px;
+            width:35%;
+        }
+
+        .download-section>p{
+            color: #666666;
+            
+            font-weight: 600;
+            font-size: 14px;
+            margin: 16px;
+        }
+
+        .download-btns{
+            color: white;
+            border-radius: 10px;
+            margin: 10px;
+            border: none;
+            background-color:#213b50 ;
+        }
+.row-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+.useful-links{
+ 
+flex: 2;
+}
+
+.category-links{
+    flex: 3;
+}
+
+td{
+    padding: 5px;
+    color: #747474;
+    font-size: 14px;
+}
+
+table{
+    width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    nav,.row-2,.row-1{
+        flex-direction: column !important;
+    }
+    .vertical-line{
+        display: none;
+    }
+.herosec>img{
+    display: none;
+}
+.row-2>p{
+    width: 90%;
+}
+.row-1>div{
+    margin-top: 20px;
+}
+
+.row-1>div>h4{
+    text-align: center;
+    
+}
+td{
+    text-align: center;
+}
+
+}
